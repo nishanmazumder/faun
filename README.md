@@ -1,2 +1,1 @@
-# faun
-woocommerce site
+<h1>FAUN - WOOCOMMERCE SITE<h1>

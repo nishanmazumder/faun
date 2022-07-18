@@ -1,0 +1,23 @@
+/*!
+Theme Name: Faun World
+Theme URI: https://bdsoftcreation.com/
+Author: Nishan M
+Author URI: https://bdsoftcreation.com/
+Description: This is Wordpress Blank theme.
+Version: 1.0.0
+Tested up to: 6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: nm_theme
+Tags: Wordpress | Theme | Blank
+*/
+
+/* Global */
+
+/* #wcpay-payment-request-button-separator, #wcpay-payment-request-wrapper{
+	display: none !important;
+} */
+
+/* Media */
+@media only screen and (max-width:430px) {}
