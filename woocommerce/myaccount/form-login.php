@@ -41,7 +41,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 				<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( wp_unslash( $_POST['username'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>
 			</p>
 			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="password"><?php esc_html_e( 'Password', 'woocommerce' ); ?>&nbsp;<span class="required">*</span> <a class="nm_lost_pw_link" href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e('Forgot your password?', 'woocommerce' ); ?></a></label>
+				<label for="password"><?php esc_html_e( 'Password', 'woocommerce' ); ?>&nbsp;<span class="required">*</span> <a class="nm_lost_pw_link" href="<?php echo esc_url( wc_lostpassword_url() ); ?>"><?php esc_html_e('Forgot your password?', 'woocommerce' ); ?></a></label>
 				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
 			</p>
 
@@ -65,7 +65,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 <?php if ( 'yes' === get_option( 'woocommerce_enable_myaccount_registration' ) ) : ?>
 
 	</div>
-	
+
 	<div class="nm_form_seperator">
 		<p>
 			OR
